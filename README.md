@@ -1,4 +1,4 @@
-# Interactive D3 isualization
+# Interactive D3 Visualization
 Data visualization for topic modeling of freeCodeCamp's chat log dataset.
 
 ## Problem Description
