@@ -11,13 +11,13 @@ We were interested in applying topic modeling to the Gitter chat logs to identif
 
 ## D3 Visualization
 
-My primary responsibility was to develop the visualization that would enable users to explore the results of our analysis. I built the visualization using javascript, HTML, CSS and D3. A screenshot of the visualization is shown below:
+My primary responsibility was to develop the visualization that would enable users to explore the results of our analysis. I built the visualization using JavaScript, HTML, CSS and D3. A screenshot of the visualization is shown below:
 
 ![alt text](https://github.com/csvw/Interactive-D3-Visualization/blob/master/Screenshot-D3.png)
 
 Each trend line corresponds to a particular topic. The large green trend line, for example, relates primarily to debugging. Each bubble corresponds to the popularity of that topic during a particular time slice: the width reveals the number of messages associated with that topic, and the height reveals the number of users participating in that topic.
 
-The charts on the left and right are complementary--the chart on the left shows the relative popularity of different topics over time, while the chart on the right provides a more concise view of that topic's popularity during any given month.
+The charts on the left and right are complementary--the chart on the left shows the relative popularity of different topics over time, while the chart on the right provides a more concise view of a particular topic's popularity during any given month.
 
 The visualization is interactive. Users can hide or reveal diffent trend lines by clicking on the colored boxes on the left hand side of the screen. Hoving the mouse over those boxes reveals the most popular words associated with that topic, and hovering over any of the bubbles displays statistics about the activity of that topic during the month associated with that bubble.
 
