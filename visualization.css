@@ -1,0 +1,370 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.detailGraphContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.uiInterior {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    justify-items: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.uiContainer {
+    display: flex;
+    align-content: center;
+}
+
+.optionsContainer {
+    padding: 10px;
+}
+
+.optionButton {
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    background-color: #999999;
+    border-radius: 8px;
+}
+
+.timeButton {
+    margin: 3px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    background-color: #999999;
+    color: black;
+    flex-grow: 1;
+}
+
+.footerOptionsContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chartOptions {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.timeOptionsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.playOptionsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #d3d3d3;
+    height: 5px;
+    width: 80%;
+}
+
+.checkBoxLabel {
+	font-size: 12px;
+}
+
+.graphContainerExterior {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.titleContainer {
+	display: flex;
+	justify-content: center;
+	align-content: flex-end;
+}
+
+.footer {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.header {
+    background-color: #007FFF;
+    display: flex;
+}
+
+.title {
+    padding: 10px;
+    color: white;
+    font-size: 2.5vw;
+    align-self: center;
+}
+
+.topicBlock {
+    padding-bottom: 10px;
+    width: 100%;
+    flex-grow: 1;
+    display: grid;
+    grid-template-rows: 21% 21% 21% 21%;
+    grid-row-gap: 4%;
+}
+
+.topicRow {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 12% 21% 12%;
+    grid-column-gap: 3%;
+}
+
+.topicHRow {
+    background-color: gray;
+    color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 12% 21% 12%;
+    grid-column-gap: 3%;
+}
+
+.topicWords {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.topicName {
+    width: 100%;
+    padding: 3px;
+    background-color: #55AFFF;
+    border-radius: 20px;
+    justify-self: center;
+    align-self: center;
+    color: black;
+    font-weight: bold;
+}
+
+.topicStat {
+    justify-self: center;
+    align-self: center;
+}
+
+.topicHWords {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.topicHName {
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+}
+
+.topicHStat {
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+}
+
+/* Citation: css button generator */
+.myButton {
+    margin: 6px;
+	-moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	-webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+	background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
+	background-color:#33bdef;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+	background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
+	background-color:#019ad2;
+}
+.myButtonActive {
+    margin: 6px;
+	-moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	-webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #010ad2), color-stop(1, #333def));
+	background:-moz-linear-gradient(top, #010ad2 5%, #333def 100%);
+	background:-webkit-linear-gradient(top, #010ad2 5%, #333def 100%);
+	background:-o-linear-gradient(top, #010ad2 5%, #333def 100%);
+	background:-ms-linear-gradient(top, #010ad2 5%, #333def 100%);
+	background:linear-gradient(to bottom, #010ad2 5%, #333def 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#010ad2', endColorstr='#333def',GradientType=0);
+    background-color:#010ad2;
+    -moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+
+/* end citation */
+
+.westContainer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.eastContainer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.west {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.east {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.flexCenter {
+    display: flex;
+    justify-items: center;
+}
+
+.listView {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    width: 100%;
+}
+
+.scaleOptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.infoBanner {
+    background-color: gray;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.defaultDisplay {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.d3-tip {
+	color: black;
+}
+
+.tipContainer {
+	background-color: rgb(0, 0, 120, 0.75);
+	color: white;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 10%;
+	border-color: black;
+}
+
+.helpPanel {
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.xAxis path {
+    fill: none;
+    stroke: black;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+  }
+
+.yAxis path {
+    fill: none;
+    stroke: black;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+  }
