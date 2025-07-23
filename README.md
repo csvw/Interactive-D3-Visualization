@@ -1,6 +1,11 @@
 # Interactive D3 Visualization
 Data visualization for topic modeling of freeCodeCamp's chat log dataset.
 
+View Ineractive Visualization Here:
+https://csvw.github.io/Interactive-D3-Visualization/
+
+Note: The visualization is not responsive. You will want to view this on a wide-screen monitor.
+
 ## Problem Description
 
 Students formed teams and were tasked with selecting and analyzing a large dataset (preferably several GB or larger). They were then required to develop an interactive visualization that allowed users to explore the results of the analysis. Over the course of the semester, students were exposed to a wide variety of analytic and visualazation tools, such as D3, Tableau, Hadoop, AWS, and Microsoft Azure. Teams were allowed to utilize any tools and data that they saw fit, provided that they met the requirements outlined above.
